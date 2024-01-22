@@ -6,7 +6,7 @@ import tensorflow as tf
 import cv2
 
 # specify the path of the model
-model_path = 'C:/Users/100790606/notebook_files/cartridge-segmentation/saved-model/unet_model.h5'
+model_path = '../saved-model/unet_model.h5'
 model = load_model(model_path)
 
 tf.get_logger().setLevel('ERROR') # suppress tensorflow warnings
